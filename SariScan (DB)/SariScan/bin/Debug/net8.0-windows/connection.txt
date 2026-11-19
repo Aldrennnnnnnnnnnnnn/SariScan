@@ -1,0 +1,12 @@
+# SariScan SQL Server connection string.
+# The first line that is not empty and does not start with # is used.
+# The database named below is created automatically on first run if it does not exist.
+
+# Option 1 - LocalDB (comes with Visual Studio):
+Server=(localdb)\MSSQLLocalDB;Database=SariScan;Trusted_Connection=True;TrustServerCertificate=True
+
+# Option 2 - SQL Server Express (Windows login):
+# Server=.\SQLEXPRESS;Database=SariScan;Trusted_Connection=True;TrustServerCertificate=True
+
+# Option 3 - SQL Server with a SQL login:
+# Server=localhost;Database=SariScan;User Id=sa;Password=YourPassword;TrustServerCertificate=True
